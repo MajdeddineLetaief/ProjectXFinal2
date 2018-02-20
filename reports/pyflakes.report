@@ -1,0 +1,11 @@
+../../myenv/lib/python3.6/site-packages/django/contrib/messages/__init__.py:1: [E] PYFLAKES:'from django.contrib.messages.api import *' used; unable to detect undefined names
+../../myenv/lib/python3.6/site-packages/django/contrib/messages/__init__.py:1: [E] PYFLAKES:'django.contrib.messages.api.*' imported but unused
+../../myenv/lib/python3.6/site-packages/django/contrib/messages/__init__.py:2: [E] PYFLAKES:'from django.contrib.messages.constants import *' used; unable to detect undefined names
+../../myenv/lib/python3.6/site-packages/django/contrib/messages/__init__.py:2: [E] PYFLAKES:'django.contrib.messages.constants.*' imported but unused
+ProjectXapp/models.py:14: [E] PYFLAKES:redefinition of unused 'was_published_recently' from line 11
+ProjectXapp/admin.py:14: [E] PYFLAKES:redefinition of unused 'QuestionAdmin' from line 4
+ProjectXapp/tests.py:1: [E] PYFLAKES:'django.test.TestCase' imported but unused
+ProjectXapp/views.py:2: [E] PYFLAKES:'django.http.HttpResponse' imported but unused
+ProjectXapp/views.py:4: [E] PYFLAKES:'django.template.loader' imported but unused
+ProjectXapp/views.py:5: [E] PYFLAKES:'django.http.Http404' imported but unused
+ProjectXapp/management/commands/createsu.py:1: [E] PYFLAKES:'django.core.management.base.CommandError' imported but unused
